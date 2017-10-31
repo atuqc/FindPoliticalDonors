@@ -9,7 +9,7 @@ The main data structure used is a nested dictionary.
 In the zipcode case,the outer key is a zip code and the value is a dictionary whose key is the CMTE_ID, the value of which is a list of contributions for that CMTE_ID in that zipcode
 Similarly in the date case, the outer key is a date and the value is a dictionary whose key is the CMTE_ID, the value of which is a list of contributions for that CMTE_ID in that date
 
-isValidDate(someDate)
+# isValidDate(someDate)
 
 checks if someDate field is empty and/or malformed (i.e has less than 5 digits or contains a letter)
 
