@@ -68,7 +68,7 @@ def readDataStream(someInput,output):
                     temp[tempLine[0]]=[tempLine]
                     currentLines[tempLine[10][0:5]] = temp
                     getRunningMedian(currentLines,tempLine[10][0:5],output)
-            print (len(tempLine))
+            #print (len(tempLine))
     stream.close()
     return mainList
 
