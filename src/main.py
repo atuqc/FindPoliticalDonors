@@ -98,9 +98,9 @@ def getMedianByDate(lines):
             newline = j[0]+'|'+ j[13]+'|'+ str(median) + '|'+ str(count) + '|' + str(totalsum)+'\n'
             listLine.append(newline)
     return sorted(listLine)
-outputFileA = "../output/median_vals_by_zip.txt"
-outputFileB ="../output/median_vals_by_date.txt"
-inputFile = "../input/intcont.txt"
+outputFileA = "./output/medianvals_by_zip.txt"
+outputFileB ="./output/medianvals_by_date.txt"
+inputFile = "./input/intcont.txt"
 mainList = readDataStream(inputFile,outputFileA) #file is read line by line
 # list of lines is returned to process by date later
 
